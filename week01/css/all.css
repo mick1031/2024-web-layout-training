@@ -4,8 +4,8 @@ body {
     font-family: "Castoro", serif;
 }
 
-a{
-    color:#000;
+a {
+    color: #000;
     text-decoration: none;
 }
 
@@ -42,8 +42,9 @@ a{
 
 .h2 {
     font-weight: 400;
-    font-size: 128px;
     letter-spacing: .12em;
+    text-align: end;
+    font-size: 64px;
 }
 
 .h3 {
@@ -61,11 +62,6 @@ a{
     font-style: italic;
 }
 
-.subtitle {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .footer {
     display: flex;
     justify-content: center;
@@ -80,13 +76,21 @@ a{
     height: 64px;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 @media (min-width: 768px) {
     .w-md-50 {
         width: 50%;
     }
+
+    .h2 {
+        font-size: 128px;
+    }
 }
 
-.fs-4{
+.fs-4 {
     font-size: 1.5rem;
 }
 
@@ -116,4 +120,8 @@ a{
 
 .mb-40 {
     margin-bottom: 10rem;
+}
+
+.mr-10 {
+    margin-right: 2.5rem;
 }
