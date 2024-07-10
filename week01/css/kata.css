@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.img {
+    display: block;
+}
+
+.content {
+    width: 288px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.g-5 {
+    gap: 20px;
+}
+
+.h2 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.container {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    border: 1px solid #000;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.mt-10 {
+    margin-top: 40px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
