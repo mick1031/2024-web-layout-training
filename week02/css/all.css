@@ -95,16 +95,16 @@ a{
     flex-wrap: wrap;
 }
 
-h1 {
+.h1 {
     color: #00FFA3;
     font-size: 128px;
 }
 
-h2 {
+.h2 {
     font-size: 64px;
 }
 
-h3 {
+.h3 {
     font-size: 20px;
 }
 
